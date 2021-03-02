@@ -20,21 +20,22 @@
     <meta name="keywords" content="hexo,hexo-theme,hexo-blog,看法是豆腐,kanfashidoufu,forontend,javascript">
     
     <meta name="description" content>
-    <meta name="description" content="May the Force be with you :&amp;#41;">
-<meta property="og:type" content="website">
-<meta property="og:title" content="[404]">
-<meta property="og:url" content="https://kanfashidoufu.github.io/404.html">
+    <meta name="description" content="算法每日一题Day5：区域和检索 - 数组不可变给定一个整数数组  nums，求出数组从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点。 实现 NumArray 类： NumArray(int[] nums) 使用数组 nums 初始化对象int sumRange(int i, int j) 返回数组 nums 从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两">
+<meta name="keywords" content="学习笔记,算法每日一题,javascript,算法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="算法每日一题 —— 2021-03-01">
+<meta property="og:url" content="https://kanfashidoufu.github.io/2021/03/01/dailyAlgorithm-2021-03-01/index.html">
 <meta property="og:site_name" content="最晚的开始">
-<meta property="og:description" content="May the Force be with you :&amp;#41;">
+<meta property="og:description" content="算法每日一题Day5：区域和检索 - 数组不可变给定一个整数数组  nums，求出数组从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点。 实现 NumArray 类： NumArray(int[] nums) 使用数组 nums 初始化对象int sumRange(int i, int j) 返回数组 nums 从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-08-29T09:50:49.016Z">
+<meta property="og:updated_time" content="2021-03-02T07:52:58.053Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="[404]">
-<meta name="twitter:description" content="May the Force be with you :&amp;#41;">
+<meta name="twitter:title" content="算法每日一题 —— 2021-03-01">
+<meta name="twitter:description" content="算法每日一题Day5：区域和检索 - 数组不可变给定一个整数数组  nums，求出数组从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点。 实现 NumArray 类： NumArray(int[] nums) 使用数组 nums 初始化对象int sumRange(int i, int j) 返回数组 nums 从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>[404] · 看法是豆腐的豆腐店</title>
+    <title>算法每日一题 —— 2021-03-01 · 看法是豆腐的豆腐店</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -215,7 +216,7 @@
 </head>
 
     
-        <body class="four-zero-four-body">
+        <body class="post-body">
     
     
 <header class="header">
@@ -223,6 +224,15 @@
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >最晚的开始</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">算法每日一题 —— 2021-03-01</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>最晚的开始</a>
 </header>
@@ -234,32 +244,80 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
     
     
-    <!-- about页 -->
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/404-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/algorithm.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            [404]
-            <!-- about -->
+            算法每日一题 —— 2021-03-01
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
-                May the Force be with you :&#41;
+            
+            <!-- 404 -->
             
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "学习笔记">学习笔记</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "算法每日一题">算法每日一题</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "javascript">javascript</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "算法">算法</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">415</span>阅读时长: <span class="post-count reading-time">2 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2021/03/01</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -360,8 +418,71 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <!-- 不可以删除，否则会调用post的layout  -->
+            <main class="main post-page">
+    <article class="article-entry">
+        <h1 id="算法每日一题"><a href="#算法每日一题" class="headerlink" title="算法每日一题"></a>算法每日一题</h1><h2 id="Day5：区域和检索-数组不可变"><a href="#Day5：区域和检索-数组不可变" class="headerlink" title="Day5：区域和检索 - 数组不可变"></a>Day5：区域和检索 - 数组不可变</h2><p>给定一个整数数组  nums，求出数组从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点。</p>
+<p>实现 NumArray 类：</p>
+<p>NumArray(int[] nums) 使用数组 nums 初始化对象<br>int sumRange(int i, int j) 返回数组 nums 从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点（也就是 sum(nums[i], nums[i + 1], … , nums[j])）</p>
+<p>示例1：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;NumArray&quot;, &quot;sumRange&quot;, &quot;sumRange&quot;, &quot;sumRange&quot;]</span><br><span class="line">[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]</span><br><span class="line">输出：</span><br><span class="line">[null, 1, -1, -3]</span><br><span class="line"></span><br><span class="line">解释：</span><br><span class="line">NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);</span><br><span class="line">numArray.sumRange(0, 2); // return 1 ((-2) + 0 + 3)</span><br><span class="line">numArray.sumRange(2, 5); // return -1 (3 + (-5) + 2 + (-1)) </span><br><span class="line">numArray.sumRange(0, 5); // return -3 ((-2) + 0 + 3 + (-5) + 2 + (-1))</span><br></pre></td></tr></table></figure></p>
+<p>提示：</p>
+<ul>
+<li>0 &lt;= nums.length &lt;= 104</li>
+<li>-105 &lt;= nums[i] &lt;= 105</li>
+<li>0 &lt;= i &lt;= j &lt; nums.length</li>
+<li>最多调用 104 次 sumRange 方法</li>
+</ul>
+<h2 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h2><p>思路：</p>
+<ul>
+<li>首先创建一个比原数组长度长1的空数组，用来存放原数组从0到第N位的前缀和。</li>
+<li>循环原数组，计算保存每一项的前缀和。</li>
+<li>sumRange方法中是需要计算第j+1位的前缀和减去第i位的前缀和，差值为第i位到第j位的和</li>
+</ul>
+<p>代码：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;number[]&#125;</span> <span class="variable">nums</span></span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">var</span> NumArray = <span class="function"><span class="keyword">function</span>(<span class="params">nums</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> sum = <span class="keyword">new</span> <span class="built_in">Array</span>(nums.length + <span class="number">1</span>).fill(<span class="number">0</span>)</span><br><span class="line">    sum[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; nums.length; i++) &#123;</span><br><span class="line">        sum[i + <span class="number">1</span>] = sum[i] + nums[i]</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">this</span>.sum = sum</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;number&#125;</span> </span>i </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;number&#125;</span> <span class="variable">j</span></span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return <span class="type">&#123;number&#125;</span></span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">NumArray.prototype.sumRange = <span class="function"><span class="keyword">function</span>(<span class="params">i, j</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.sum[j + <span class="number">1</span>] - <span class="keyword">this</span>.sum[i]</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Your NumArray object will be instantiated and called as such:</span></span><br><span class="line"><span class="comment"> * var obj = new NumArray(nums)</span></span><br><span class="line"><span class="comment"> * var param_1 = obj.sumRange(i,j)</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure></p>
 
+    </article>
+    <!-- license  -->
+    
+        <div class="license-wrapper">
+            <p>原文作者：<a href="https://kanfashidoufu.github.io">Andy Wang</a>
+            <p>原文链接：<a href="https://kanfashidoufu.github.io/2021/03/01/dailyAlgorithm-2021-03-01/">https://kanfashidoufu.github.io/2021/03/01/dailyAlgorithm-2021-03-01/</a>
+            <p>发表日期：<a href="https://kanfashidoufu.github.io/2021/03/01/dailyAlgorithm-2021-03-01/">March 1st 2021, 3:31:45 pm</a>
+            <p>更新日期：<a href="https://kanfashidoufu.github.io/2021/03/01/dailyAlgorithm-2021-03-01/">March 2nd 2021, 3:52:58 pm</a>
+            <p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
+        </div>
+    
+    <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2021/02/25/dailyAlgorithm-2021-02-25/" title= "算法每日一题 —— 2021-02-25">
+                    <div class="prevTitle">算法每日一题 —— 2021-02-25</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
+    
+    
+    <!-- gitalk评论 -->
+
+    <!-- utteranc评论 -->
+
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
+</main>
             <!-- profile -->
             
         </div>
@@ -446,6 +567,24 @@
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#算法每日一题"><span class="toc-number">1.</span> <span class="toc-text">算法每日一题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Day5：区域和检索-数组不可变"><span class="toc-number">1.1.</span> <span class="toc-text">Day5：区域和检索 - 数组不可变</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#解答"><span class="toc-number">1.2.</span> <span class="toc-text">解答</span></a></li></ol></li></ol>
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -784,6 +923,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
